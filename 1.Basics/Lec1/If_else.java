@@ -1,14 +1,22 @@
+import java.util.*;
+
 public class If_else {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
 
-        int number = 10;
-
-        if (number > 0) {
-            System.out.println("Number is positive");
-        } else if (number < 0) {
-            System.out.println("Number is negative");
-        } else {
-            System.out.println("Number is zero");
+        if(a >= 18){
+            System.out.println("You are Adult");
+        }
+        else if(a < 18){
+            System.out.println("You are Baccha");
+        }
+        else if (a > 100){
+            System.out.println("You are Amar");
+        }
+        else{
+            System.out.println("Invalid");
         }
     }
+    
 }
