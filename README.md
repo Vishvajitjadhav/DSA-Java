@@ -24,7 +24,7 @@ I am following a structured learning roadmap and solving problems from Striver A
 
 ## 🛠 Tech Used
 - **Language:** Java
-- **IDE:** VS Code
+- **IDE:** Intellij IDEA
 - **Platform:** LeetCode, GFG, CodeStudio
 
 
